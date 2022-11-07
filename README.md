@@ -14,3 +14,19 @@
 			
 			c. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 				answer: linear model of MechaCar prototypes is effective in predicting mpg.  Strong correlation between mpg (dependent variable) and independent variables (vehicle_length and ground_clearance).
+
+
+## Summary Statistics on Suspension Coils
+The Suspension Coil dataset contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency.
+
+Looking at all manufacturing lots
+![Deliver2_Summary](https://user-images.githubusercontent.com/107228424/200414881-b4ba4f3c-283a-4c43-9ddf-ac0949e7cb7b.jpg)
+
+			a. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+			answer: 1) Looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, within the 100 PSI variance requirement. 
+				2) Lot 1 and Lot 2 are within the 100 PSI variance requirement; with variances of 0.98 and 7.47. 
+				3) Lot 3 that is showing a much larger variance of 170.29. Lot 3 skewing the full lot level.
+
+
+
+
