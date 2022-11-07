@@ -38,10 +38,12 @@ Looking at all manufacturing lots
 
 ## T-Tests on Suspension Coils
 
-Perform t-tests to determine if 1) all manufacturing lots AND 2)each lot individually are statistically different from the population mean of 1,500 pounds 
-per square inch.
+Perform t-tests to determine if 1) all manufacturing lots AND 2) Perform t-tests to determine if EACH lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 ![Deliver3_ttest](https://user-images.githubusercontent.com/107228424/200431887-bbee4767-100c-4adb-a1fe-3d1efc8713ad.jpg)
 
-
+			a. Summary of the t-test results across all manufacturing lots and for each lot
+				1) All Mfg Lots: 
+				2) 
+				3)
 
