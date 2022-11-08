@@ -47,3 +47,12 @@ Perform t-tests to determine if 1) all manufacturing lots AND 2) Perform t-tests
 				2) 
 				3)
 
+
+
+## Study Design: MechaCar vs Competition
+
+		a. My statistical study design chosen is:
+				1) A metric to be tested is mentioned
+				2) A null hypothesis or an alternative hypothesis is described
+				3) A statistical test is described to test the hypothesis
+				4) The data for the statistical test is described 
