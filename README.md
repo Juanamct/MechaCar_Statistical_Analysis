@@ -23,7 +23,6 @@
 The Suspension Coil dataset contains the results of testing the weight capacities of multiple suspension coils from multiple production 
 lots to determine consistency.
 
-Looking at all manufacturing lots
 
 ![Deliver2_Summary](https://user-images.githubusercontent.com/107228424/200414881-b4ba4f3c-283a-4c43-9ddf-ac0949e7cb7b.jpg)
 
@@ -38,14 +37,20 @@ Looking at all manufacturing lots
 
 ## T-Tests on Suspension Coils
 
-Perform t-tests to determine if 1) all manufacturing lots AND 2) Perform t-tests to determine if EACH lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+Perform t-tests to determine if 1) all manufacturing lots AND 2) Perform t-tests to determine if EACH lot individually are statistically 
+different from the population mean of 1,500 pounds per square inch.
 
 ![Deliver3_ttest](https://user-images.githubusercontent.com/107228424/200431887-bbee4767-100c-4adb-a1fe-3d1efc8713ad.jpg)
 
 		a. Summary of the t-test results across all manufacturing lots and for each lot
-			1) All Mfg Lots: With a p-value of .6072 (over the .5 but not by much), there a is very small chance there is a causal relationship 			       so we cannot reject the null hypothesis but need to look into the data further.
-			2) Lots 1 & 2:  Lot 1 has a very close relationship with 
-			3) Lot3:
+			1) All Mfg Lots: With a p-value of .6028 (over the standard.05 significance level), there is a causal 
+			   relationship so we cannot reject the null hypothesis but a further look into the data is warranted.
+			2) Lot1: Lot 1 with a p-value of 1 is statistically the same as the population PSI mean of 1,500.  Cannot reject the 
+			   null hypothesis, Lot1 has the same mean as the population PSI.  
+			3) Lot2: Lot 2, similar to total of all lots, has a p-value of .6072 (over the standard.05 significance level), there 
+			   a is causal relationship, we cannot reject the null hypothesis. Lot2 is similar to the population PSI.
+			4) Lot3:Lot 3, with a p-value of .04168 is below the .05 threshold.  This Lot's mean is significantly different from 
+			   the population PSI mean of 1,500.  Cannot reject the null hypothesis.
 
 
 
