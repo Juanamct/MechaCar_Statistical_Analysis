@@ -43,11 +43,11 @@ different from the population mean of 1,500 pounds per square inch.
 ![Deliver3_ttest](https://user-images.githubusercontent.com/107228424/200431887-bbee4767-100c-4adb-a1fe-3d1efc8713ad.jpg)
 
 		a. Summary of the t-test results across all manufacturing lots and for each lot
-			1) All Mfg Lots: With a p-value of .6028 (over the standard.05 significance level), there is a causal 
+			1) All Mfg Lots: With a p-value of .6028 (over the normal .05 significance level), there is a causal 
 			   relationship so we cannot reject the null hypothesis but a further look into the data is warranted.
 			2) Lot1: Lot 1 with a p-value of 1 is statistically the same as the population PSI mean of 1,500.  Cannot reject the 
 			   null hypothesis, Lot1 has the same mean as the population PSI.  
-			3) Lot2: Lot 2, similar to total of all lots, has a p-value of .6072 (over the standard.05 significance level), there 
+			3) Lot2: Lot 2, similar to total of all lots, has a p-value of .6072 (over the normal .05 significance level), there 
 			   a is causal relationship, we cannot reject the null hypothesis. Lot2 is similar to the population PSI.
 			4) Lot3:Lot 3, with a p-value of .04168 is below the .05 threshold.  This Lot's mean is significantly different from 
 			   the population PSI mean of 1,500.  Cannot reject the null hypothesis.
@@ -56,8 +56,10 @@ different from the population mean of 1,500 pounds per square inch.
 
 ## Study Design: MechaCar vs Competition
 
-		a. My statistical study design chosen is:
-			1) A metric to be tested is mentioned
-			2) A null hypothesis or an alternative hypothesis is described
-			3) A statistical test is described to test the hypothesis
-			4) The data for the statistical test is described 
+		a. Statistical study design:
+			1) Metric to be tested: Is MechaCar's 6 cylinder or higher vehicles mpg similar to that of the same class/horsepower 
+			   of their competitions mpg?
+			2) A null hypothesis: Is there a statistical difference between the mean of the sample distribution and the mean of 
+			   the population distribution, using the normal significance level of .05?
+			3) Statistical test to test the hypothesis: One-Sample t-Test using population & countinuous data type.
+			4) Data for the statistical test: 3 - 5 year of MechaCar and competitors 6 miles per gallon, by vehicle                                              class, cylinder/horsepower, year.  Continous dataset.
